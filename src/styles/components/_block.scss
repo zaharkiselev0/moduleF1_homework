@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.block {
+  background: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: $radius;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: $shadow;
+}

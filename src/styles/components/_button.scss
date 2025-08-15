@@ -1,0 +1,29 @@
+@use 'sass:color';
+@use '../variables' as *;
+
+.btn {
+  background: $color-primary;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: $radius;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+
+  &:hover {
+    background: color.adjust($color-primary, $lightness: -10%);
+  }
+
+  &-icon-start,
+  &-icon-end {
+    display: flex;
+    align-items: center;
+  }
+
+  &-text {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,12 @@
+@use '../variables' as *;
+
+.header {
+  padding: 1rem;
+  background: #e8f0fe;
+
+  .row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
